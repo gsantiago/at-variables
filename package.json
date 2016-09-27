@@ -1,0 +1,38 @@
+{
+  "name": "at-variables",
+  "version": "0.0.1",
+  "description": "Extract at-variables from strings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gsantiago/at-variables"
+  },
+  "keywords": [
+    "at-variables",
+    "docs",
+    "key",
+    "value",
+    "strings",
+    "extracts",
+    "get",
+    "remove",
+    "clear"
+  ],
+  "author": "Guilherme Santiago",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard index.js && mocha"
+  },
+  "devDependencies": {
+    "common-tags": "^1.3.1",
+    "mocha": "^3.0.2",
+    "standard": "^8.1.0"
+  },
+  "engines": {
+    "node": ">= 6"
+  },
+  "dependencies": {
+    "is-array": "^1.0.1",
+    "lodash.get": "^4.4.2",
+    "lodash.set": "^4.3.2"
+  }
+}
