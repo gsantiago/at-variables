@@ -1,5 +1,9 @@
 # at-variables
 
+[![Build Status](https://travis-ci.org/gsantiago/at-variables.svg?branch=master)](https://travis-ci.org/gsantiago/at-variables)
+[![npm version](https://badge.fury.io/js/at-variables.svg)](http://badge.fury.io/js/at-variables)
+[![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 Extract at-variables from strings:
 
 ```js
