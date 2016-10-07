@@ -90,4 +90,18 @@ describe('atVariables', function () {
       }
     })
   })
+
+  it('should return an empty object', function () {
+    var str = 'my string wihout at-variables'
+    var vars = atVariables(str)
+
+    assert.deepStrictEqual(vars, {})
+  })
+
+  it('should return the string wihout modifications', function () {
+    var str = 'another common string'
+    var result = atVariables.clear(str)
+
+    assert.strictEqual(result, str)
+  })
 })
